@@ -5,12 +5,12 @@
   font-family: sans-serif;
   font-family: "Abel", sans-serif;
   text-align: left;
-  background: rgb(183, 33, 255);
+  background: rgb(255, 173, 103);
   background: linear-gradient(
     332deg,
-    rgba(183, 33, 255, 1) 0%,
-    rgba(97, 138, 254, 1) 54%,
-    rgba(33, 212, 253, 1) 100%
+    rgb(255, 156, 69) 0%,
+    rgba(191, 87, 0, 1) 57%,
+    rgba(91, 41, 0, 1) 100%
   );
   width: 100%;
   height: 100vh;
@@ -20,9 +20,36 @@ h1 {
   font-family: "Holtwood One SC", serif;
   color: white;
   line-height: 1em;
+  font-size: 32pt;
   text-align: center;
 }
 
 h2 {
   font-family: "Holtwood One SC", serif;
+  color: white;
+}
+
+h3 {
+  font-family: "code", serif;
+  color: white;
+  font-size: 18pt;
+  text-align: center;
+}
+/* GOAL: make sub-title font size half as large as the title font, and adjust as the window is expanded or enlarged */
+
+p {
+  font-family: "code", serif;
+  color: white;
+  text-align: center;
+}
+button {
+  font-family: "Holtwood One SC", serif;
+  color: white;
+  background-color: rgba(22, 33, 44, 0);
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(224, 224, 224, 0.5);
+  cursor: pointer;
 }

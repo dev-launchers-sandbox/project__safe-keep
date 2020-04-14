@@ -13,12 +13,16 @@ function App() {
         <br />
         <h1>Safe Keep</h1>
         <hr />
-        <h3>Start editing to see some magic</h3>
+        <h3>For a Longhorn Trying to Succeed</h3>
         <p>
-          This is the beginning of your very own app! Begin making changes to
-          the index.js file, along with the components to get a feel for how
-          React apps are structured.
+          Have you ever felt lost on the 40 acres? Needed help finding campus
+          resources or getting connected to the right people? This is your one
+          stop to recieving all of this and more! Click "Sign Up" to get started
+          or "Log In" if you are already a member!
         </p>
+
+        <button type="button">Sign Up</button>
+        <button type="button">Log In</button>
       </PageBody>
     </div>
   );
